@@ -175,6 +175,7 @@ input:focus, textarea:focus {
 	
 	#post #outerWrap {
 		margin: 0 auto;
+		margin-left: 0px;	/* BRIAN - only want it to be on the left */
 		position: relative;
 		max-width: <?php echo (get_theme_mod( 'solofolio_header_width', '200' ) + 920 + 40); ?>px;
 	}

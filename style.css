@@ -73,7 +73,8 @@ table {
 }
 
 body {
-	font-family: Helvetica, Verdana, Arial, Utkal, sans-serif;
+	/* font-family: Helvetica, Verdana, Arial, Utkal, sans-serif; */
+	font-family: "Open Sans", sans-serif;
 	background-color: #282828;
 	color: #AAAAAA;
 	-webkit-text-size-adjust: 100%;
@@ -97,7 +98,8 @@ strong {
 
 /* Options - Fonts */
 .sans {
-	font-family: Helvetica,Verdana,Arial,Utkal,sans-serif;
+	/*font-family: Helvetica,Verdana,Arial,Utkal,sans-serif;*/
+	font-family: "Open Sans",sans-serif;
 }
 
 .serif {
@@ -214,7 +216,7 @@ p {
 	height: 100%;
 	left: 0;
 	margin: 0;
-	padding: 20px 20px 0 20px;
+	padding: 60px 20px 0 20px;	/*BRIAN - modified for matching padding */
 	position: fixed;
 	top: 0;
 	width: 200px;
@@ -241,11 +243,15 @@ p {
 	}
 
 	#header-content ul li {
-		font-size: 12px;
+		/* font-size: 12px; */
 		font-weight: normal;
 		letter-spacing: 1px;
 		list-style-type: none;
-		padding: 0 0 5px;
+		/* padding: 0 0 5px; */
+		/* BRIAN */
+		line-height: 1.25;
+		padding: 0 0 10px; 
+		font-size: 1.17em; 
 	}
 	
 	#header-content div {
@@ -290,13 +296,24 @@ p {
 			margin-top: 5px;
 		}
 
+/* BRIAN  CUSTUM PHOTOSHELTER MENUS 
+#menu-photoshelter_gallery_menu-container {
+
+}
+
+#menu-photoshelter_archive_menu-container {
+	padding-top: 30px;
+	padding-bottom: 100px;
+} */
+
 #wrapper {
 	padding: 0
 	bottom: 0;
     position: absolute;
     top: 0;
     right: 0;
-    left: 270px;
+    /*left: 270px;*/
+    /*left: 0;*/
 }
 
 .commentbox {
@@ -413,7 +430,7 @@ h2.post-title {
 	}
 	
 #content-index, #content-single {
-    padding-top: 20px;
+    padding-top: 60px; /* BRIAN */
     width: 100%;
 }
 	
@@ -702,4 +719,5 @@ table tr {
 /* Centering */
 #outerWrap {
 	min-height: 100%;
+	margin-left: 0px;
 }
