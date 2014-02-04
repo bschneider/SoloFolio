@@ -97,7 +97,7 @@
 			
 			<div id="logo-img">
 				<!-- BRIAN change to go back to PS homepage  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_theme_mod( 'solofolio_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" data-retina="<?php echo get_theme_mod( 'solofolio_logo_retina' ); ?>" /></a> -->
-				<!-- <a href="http://www.ebrianschneider.com" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_theme_mod( 'solofolio_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" data-retina="<?php echo get_theme_mod( 'solofolio_logo_retina' ); ?>" /></a> -->
+				<a href="http://www.ebrianschneider.com" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_theme_mod( 'solofolio_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" data-retina="<?php echo get_theme_mod( 'solofolio_logo_retina' ); ?>" /></a> 
 			</div>
 			
 		<!-- BRIAN change noimg to long and retina display	<div id="logo-noimg">
